@@ -1,0 +1,22 @@
+---
+title: Blog
+---
+<!--<h1>Recent Posts</h1>-->
+{% for post in site.posts limit: 5 %}
+  <div id="article">
+  <div class="article-title"><a href="{{ site.baseurl }}{{ post.url }}">
+    {{ post.title }}
+  </a></div>
+  <p class="meta">
+    <small>
+      &nbsp;<i class="fa fa-calendar-o"></i> {{ post.date | date_to_string}}
+    </small>
+  </p> <hr/>
+  <div class="post">
+    {{ post.content }}
+  </div>
+  </div>
+{% endfor %}
+<ul>
+  <a href="{{ site.baseurl }}/archive.html">View More...</a>
+</ul>

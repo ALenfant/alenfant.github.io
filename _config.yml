@@ -1,0 +1,31 @@
+name: AntoninLenfant
+author: Antonin Lenfant
+#baseurl: /herring-cove
+description: personal website
+github: https://github.com/ALenfant/
+twitter: https://twitter.com/awebfr/
+viadeo: http://fr.viadeo.com/fr/profile/antonin.lenfant
+linkedin: http://www.linkedin.com
+email: antonin.lenfant@gmail.com
+location: 42°2'16"N   70°12'47"W
+#disqus: diqus-username
+
+##Make sure to edit the above fields, especially for disqus.
+
+
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
