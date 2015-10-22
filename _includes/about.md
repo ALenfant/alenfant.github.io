@@ -47,15 +47,15 @@ for instance!
 including in Paris!
 Here's a list of places I visited:
 
-<script src="https://cdn.amcharts.com/lib/3/ammap.js" type="text/javascript"></script>
-<script src="https://cdn.amcharts.com/lib/3/maps/js/worldHigh.js" type="text/javascript"></script>
-<script src="https://cdn.amcharts.com/lib/3/themes/dark.js" type="text/javascript"></script>
+<script src="//cdn.amcharts.com/lib/3/ammap.js" type="text/javascript"></script>
+<script src="//cdn.amcharts.com/lib/3/maps/js/worldHigh.js" type="text/javascript"></script>
+<script src="//cdn.amcharts.com/lib/3/themes/dark.js" type="text/javascript"></script>
 <div id="mapdiv" style="width: 100%; height: 350px;"></div>
 <script type="text/javascript">
 var map = AmCharts.makeChart("mapdiv",{
 type: "map",
 theme: "dark",
-pathToImages : "https://cdn.amcharts.com/lib/3/images/",
+pathToImages : "//cdn.amcharts.com/lib/3/images/",
 panEventsEnabled : true,
 backgroundColor : "#535364",
 backgroundAlpha : 1,
