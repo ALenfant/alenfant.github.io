@@ -24,7 +24,13 @@ $('.nav-toggle').on('click', function () {
 */
 
 $(function() {
-    $('.project-box').click(function() {
+	$('.project-box>.row>.project-post').append('<span class="more-info">Click for more information</span>');
+    $('.project-box').click(function(e) {
+        if (e.target.tagName == "A" || e.target.tagName == "IMG") {
+            return true;
+        }
+
+    	$(this).find('.more-info').toggle();
         $(this).find('.post').slideToggle();
     });
 });

@@ -11,12 +11,10 @@ location: 42°2'16"N   70°12'47"W
 #disqus: diqus-username
 
 ##Make sure to edit the above fields, especially for disqus.
+encoding: utf-8
 
-
-highlighter: pygments
-markdown: redcarpet
-redcarpet:
-  extensions: ["tables"]
+highlighter: rouge
+markdown: kramdown
 
 defaults:
   - scope:
