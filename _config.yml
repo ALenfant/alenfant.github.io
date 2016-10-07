@@ -16,7 +16,12 @@ encoding: utf-8
 highlighter: rouge
 markdown: kramdown
 kramdown:
-  input: GFM
+   input: GFM
+   hard_wrap: false
+
+gems:
+   - jekyll-coffeescript
+   - jekyll-paginate
 
 defaults:
   - scope:
